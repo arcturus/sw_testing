@@ -1,0 +1,22 @@
+{
+  "name": "sw_testing",
+  "version": "1.0.0",
+  "description": "Testing infraestructure for SW",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "serviceworkers",
+    "worker",
+    "karma",
+    "mocha"
+  ],
+  "author": "Francisco Jordano <francisco@jordano.es>",
+  "license": "MPL",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-firefox-launcher": "^0.1.4"
+  }
+}
